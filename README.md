@@ -13,8 +13,6 @@ Since Youtube has started taking an aggressive stance with Adblockers and Ublock
 
 Click to Trigger Fastforward
 
-Auto-Click Youtube Skip Add Button
-
 Add Support for Vimeo
 
 Add Support for Dailymotion

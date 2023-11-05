@@ -1,18 +1,24 @@
 (function() {
-    // Function to handle video manipulation
+    // Checks for adds and manipulates the video or uses skip button if present
     function handleVideoAd() {
         const video = document.querySelector('video');
         const adElement = document.querySelector('.video-ads.ytp-ad-module');
         if (video && adElement && adElement.children.length > 0) {
-            video.playbackRate = 10.0;
             video.muted = true;
+            video.playbackRate = 10.0;
+        }
+        // Skip button seems to be acessible at initialization, if its ever present
+        const skipButton = document.querySelector('.ytp-ad-skip-button');
+        if (skipButton) {
+            skipButton.click();
+            console.log('Used Button to Skip Add')
         }
     }
 
-    // Immediate application for already present video
+    // Handle video adds on initialization
     handleVideoAd();
 
-    // MutationObserver to catch changes in page content
+    // Handle video adds when there are content changes
     const observer = new MutationObserver(handleVideoAd);
     
     observer.observe(document.body, { childList: true, subtree: true });

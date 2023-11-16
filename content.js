@@ -8,7 +8,7 @@
             video.playbackRate = 10.0;
         }
         // Skip button seems to be acessible at initialization, if its ever present
-        const skipButton = document.querySelector('.ytp-ad-skip-button');
+        const skipButton = document.querySelector('.ytp-ad-skip-button, .ytp-ad-skip-button-modern');
         if (skipButton) {
             skipButton.click();
             console.log('Used Button to Skip Add')

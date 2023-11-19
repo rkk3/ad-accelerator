@@ -5,7 +5,7 @@
         const adElement = document.querySelector('.video-ads.ytp-ad-module');
         if (video && adElement && adElement.children.length > 0) {
             video.muted = true;
-            video.playbackRate = 10.0;
+            video.playbackRate = 16;
         }
         // Skip button seems to be acessible at initialization, if its ever present
         const skipButton = document.querySelector('.ytp-ad-skip-button, .ytp-ad-skip-button-modern');

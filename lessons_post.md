@@ -112,7 +112,7 @@ I'm still not sure how many styles they use, but this is definitely the most fra
 I haven't tested it yet but this person's suggestion on Reddit seems like an even better solution.
 
 ![Reddit suggestion](assets/images/lessons_post/reddit_suggestion.png)
-[link] (https://old.reddit.com/r/webdev/comments/181vbmk/youtube_is_now_blocking_ad_blockers_so_i_just/kafxasq/)
+[link](https://old.reddit.com/r/webdev/comments/181vbmk/youtube_is_now_blocking_ad_blockers_so_i_just/kafxasq/)
 
 It would even remove the need to support the skip ad button.
 

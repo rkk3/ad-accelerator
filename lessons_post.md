@@ -73,7 +73,7 @@ if (adElement && adElement.children.length > 0) {
 
 ---
 ### Turning it into an extension
-At this point it was time to take this simple console hack and turn it into an extension. This was relatively straightforward and I needed ended up needing 3 files: manifest.json, content.js and background.js
+It was time to take this simple console hack and turn it into an extension. This was relatively straightforward and I needed ended up needing 3 files: manifest.json, content.js and background.js
 
 the [manifest.json](https://github.com/rkk3/ad-accelerator/blob/main/manifest.json) file outlines basic properties such as the extension's name, version, description, permissions it requires, and which files to load. 
 
@@ -98,7 +98,7 @@ Playing around in the console I found out that if the ad has a skip button, the 
 
 ![Click Skip button](assets/images/lessons_post/button_click.png)
 
-At this point the extension worked great for own personal use for several weeks.
+I continued to try it out and the extension worked great for own personal use for several weeks!
 
 However around when I submitted it to the Chrome webstore the second time YouTube changed the style for the skip button they were sending me. The video element was the same but the skip button changed to "ytp-ad-skip-button-modern" instead of "ytp-ad-skip-button".
 
@@ -157,7 +157,7 @@ I'm not sure how this happened, but a big thank you to everyone who shared it in
         
 I assumed many people had or would come to similar ideas on their own when confronted with the obnoxiousness of YouTube ads (sans adblockers). [The top comment in my show HN thread even said they had made something similar themselves](https://news.ycombinator.com/item?id=38327017#38327385). I also wasn't expecting it to get the attention it did & I had zero intention to monetize which is why I chose open sourcing thinking maybe the community could support & expand it, if it was at all successful (more on this at the end).
 
-So I wasn't too shocked when Thursday afternoon a [Reddit post](https://old.reddit.com/r/webdev/comments/181vbmk/youtube_is_now_blocking_ad_blockers_so_i_just/) about a *functionally identical* extension hit the top of [HN](https://news.ycombinator.com/item?id=38397817#38398571). I responded to a [commenter who mentioned the similarity to my post](https://news.ycombinator.com/item?id=38397817#38397999) but didn't look closely and walked away to go have Thanksgiving dinner with my family.
+So I didn't think too much of it when Thursday afternoon a [Reddit post](https://old.reddit.com/r/webdev/comments/181vbmk/youtube_is_now_blocking_ad_blockers_so_i_just/) about a *functionally identical* extension hit the top of [HN](https://news.ycombinator.com/item?id=38397817#38398571). I responded to a [commenter who mentioned the similarity to my post](https://news.ycombinator.com/item?id=38397817#38397999) but didn't look closely and walked away to go have Thanksgiving dinner with my family.
 
 Yesterday I went back to look at it for this writeup when I realized they didn’t just come to it on their own. The same person had posted on HN complimenting my extension and *promoting their extension developer community* just days earlier.
 

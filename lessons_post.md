@@ -56,6 +56,8 @@ Again using inspector tools we can compare the HTML when there is an ad vs when 
 
 Ad
 ![Youtube ad html](assets/images/lessons_post/youtube_ad.png)
+
+
 Not Ad
 ![Youtube content](assets/images/lessons_post/youtube_content.png)
 

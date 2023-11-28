@@ -6,7 +6,7 @@
         // Support for Hulu
         const adVideo = document.querySelector('#ad-video-player');
         if (video && adElement && adElement.children.length > 0) {
-            muteAndSpeedUp(video, 10.0)
+            muteAndSpeedUp(video, 16.0)
         }
         // Skip button seems to be acessible at initialization, if its ever present
         const skipButton = document.querySelector('.ytp-ad-skip-button, .ytp-ad-skip-button-modern');

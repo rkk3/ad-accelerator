@@ -2,9 +2,9 @@
 
 
 
-Recently I made a simple free [Chrome extension](https://chromewebstore.google.com/detail/ad-accelerator/gpboiedfklodfhngobidfjecdpmccehg?hl=en) to improve the YouTube experience without Adblockers & [open sourced the code (MIT License)](https://github.com/rkk3/ad-accelerator). [On Saturday Nov 18th I shared it on HackerNews (HN)](https://news.ycombinator.com/item?id=38327017) and it was well received, way beyond my expectations! Yay! 
+Recently I made a simple free [Chrome extension](https://chromewebstore.google.com/detail/ad-accelerator/gpboiedfklodfhngobidfjecdpmccehg?hl=en) to improve the YouTube experience without Adblockers & [open sourced the code (MIT License)](https://github.com/rkk3/ad-accelerator). [On Saturday Nov 18th I shared it on HackerNews (HN)](https://news.ycombinator.com/item?id=38327017). it was well received and hit the front page, way beyond my expectations! Yay! 
 
-Within days it was functionally copied and [uploaded to the chrome store](https://chromewebstore.google.com/detail/ad-speedup-skip-video-ads/pcjlckhhhmlefmobnnoolakplfppdchi) without the MIT License or any acknowledgement by another HN member and [owner of a Discord developer community (!) ](https://discord.gg/taqUQWNZDV) who had [seen and commented on my work](https://news.ycombinator.com/item?id=38327017&p=2#38328305). They presented it as their own and went viral on [Reddit](https://old.reddit.com/r/webdev/comments/181vbmk/youtube_is_now_blocking_ad_blockers_so_i_just/) then [HN](https://news.ycombinator.com/item?id=38397817#38398571) and [again on Reddit](https://old.reddit.com/r/webdev/comments/183ekw9/lets_beat_youtube_together_by_running_ads_16x/). [They even got some press](https://9to5google.com/2023/11/25/youtube-ads-speed-up-workaround/#:~:text=%E2%80%9CAd%20Speedup%E2%80%9D%20on%20the%20Chrome,their%20interruption%20of%20your%20content.) [^1] and [were mentioned in a 400k+ view youtube video](https://www.youtube.com/watch?v=2yEE34BeBnA&t=295s)
+Within the next five days later it was functionally copied and [uploaded to the chrome store](https://chromewebstore.google.com/detail/ad-speedup-skip-video-ads/pcjlckhhhmlefmobnnoolakplfppdchi) without any acknowledgement by another HN member and [owner of a Discord developer community (!) ](https://discord.gg/taqUQWNZDV) who had [seen and commented on my work](https://news.ycombinator.com/item?id=38327017&p=2#38328305). They presented it as their own and went viral on [Reddit](https://old.reddit.com/r/webdev/comments/181vbmk/youtube_is_now_blocking_ad_blockers_so_i_just/) then [HN](https://news.ycombinator.com/item?id=38397817#38398571) and [again on Reddit](https://old.reddit.com/r/webdev/comments/183ekw9/lets_beat_youtube_together_by_running_ads_16x/). [They even got some press](https://9to5google.com/2023/11/25/youtube-ads-speed-up-workaround/#:~:text=%E2%80%9CAd%20Speedup%E2%80%9D%20on%20the%20Chrome,their%20interruption%20of%20your%20content.) [^1] and [were mentioned in a 400k+ view youtube video](https://www.youtube.com/watch?v=2yEE34BeBnA&t=295s)
 
 This post is a reflection on building the extension, going viral, being copied, and  what I learned from the experience.
 
@@ -113,10 +113,10 @@ I'm still not sure how many styles they use, but this is definitely the most fra
 
 I haven't tested it yet but this person's suggestion on Reddit seems like an even better solution.
 
-![Reddit suggestion](assets/images/lessons_post/reddit_suggestion.png)
+![Reddit suggestion](assets/images/lessons_post/reddit_suggestion_11_23_23.png)
 [link](https://old.reddit.com/r/webdev/comments/181vbmk/youtube_is_now_blocking_ad_blockers_so_i_just/kafxasq/)
 
-It would even remove the need to support the skip ad button.
+It might even remove the need to support the skip ad button.
 
 
 ## Chrome Store
@@ -163,35 +163,40 @@ So I didn't think too much of it when Thursday afternoon a [Reddit post](https:/
 
 Yesterday I went back to look at it for this writeup when I realized they didn’t just come to it on their own. The same person had posted on HN complimenting my extension and *promoting their extension developer community* just days earlier.
 
-![show HN comment](assets/images/lessons_post/shown_hn_comment.png)
-[link](https://news.ycombinator.com/item?id=38327017&p=2#38328305)
+![show HN comment](assets/images/lessons_post/show_hn_comment_11_18_23.png)
+Posted on 11/18/23 [link](https://news.ycombinator.com/item?id=38327017&p=2#38328305)
 
 
-Even though the response to my extension far exceeded my expectations, this really bummed me out. I was totally at peace with another successful extension in the wild doing the same or similar thing - but it felt different knowing that they saw my idea/code/extension, took it for themselves with *zero acknowledgement* and got more traction[^2]. Especially when Re-reading their "creator post". 
+Even though the response to my extension far exceeded my expectations, this really bummed me out. I was totally at peace with another successful extension in the wild doing the same or similar thing - but it felt different knowing that they saw my idea/code/extension, took it for themselves with *zero acknowledgement* and got more traction. Especially when Re-reading their "creator posts". 
 
-![HN creator comment](assets/images/lessons_post/hn_creator.png)
-[link](https://news.ycombinator.com/item?id=38397817#38398571)
+![Reddit creator post](assets/images/lessons_post/reddit_creator_post_11_23_23.png)
+Posted on 11/23/23 [link]()
+
+![HN creator post](assets/images/lessons_post/hn_creator_post_11_23_23.png)
+Posted on 11/23/23 [link](https://news.ycombinator.com/item?id=38397817#38398571)
 
 
-So yesterday I joined the Discord developer community they run, to let them know that it really hurt my feelings that they took my idea & project without any acknowledgement. I also wanted to let people who might be working on more serious projects that the owner of their developer community server might actively copy their projects - instead of supporting them.
+
+So on 11/26 I joined the Discord developer community they run, to let them know that I was super disapointed that they took my idea & project without any acknowledgement. I also wanted to let people who might be working on more serious projects that the owner of their developer community server might actively copy their projects - instead of supporting them.
 
 Unsurprisingly after they saw my public Discord message, they kicked me from their server. They also kicked anyone else who had engaged in the conversation, and deleted all the public messages about it. 
 
-However privately they reached out to "justify why they kicked me"[^3]. 
+However privately they reached out to "justify why they kicked me"[^2]. 
 They did not offer any kind of apology or acknowledgement aside from this cheeky response:
 
-![Discord message](assets/images/lessons_post/private_message.png)
+![Discord message](assets/images/lessons_post/private_message_11_26_23.png)
 
+
+Recieved 11/26
 
 Perhaps I'm wrong to feel they violated the spirit in which I shared the project. The irony of it being a hacky/piratey nature of the extension itself isn’t lost on me.
 
 Mainly I think the negative feelings I now have are internally directed anger & disappointment. The frustration I feel with myself that I should have posted other places and not given them the opportunity. Next time I’ll be more aggressive with promotion.
 
-To end on a more upbeat front, this morning I got a PR from [a member of the community](https://github.com/MadhuNimmo) expanding support of the extension to Hulu. Haven't tested it yet as of yet - I've  been busy writing this - but it makes me feel a little better about open sourcing and what the future may hold.
+To end on a more upbeat front, the morning of 11/27 I got a PR from [a member of the community](https://github.com/MadhuNimmo) expanding support of the extension to Hulu. Haven't tested it yet as of yet - I've  been busy writing this - but it makes me feel a little better about open sourcing and what the future may hold.
 
 
 [^1]: I reached out to the author and on 11/27 they updated the article to include "Another extension that was posted to Hacker News a few days prior to 'Ad Speedup' already supports hitting the skip button, but only speeds ads up by 10x. 'Ad Accelerator' is also available on the Chrome Web Store." 
 
-[^2]: As I mentioned Extension analytics are quite delayed so I'm not 100% sure but they got an order of magnitude more upvotes, got press and has significantly more reviews.
 
-[^3]: They said "I accused them of stealing code", which I never did. I very permissibly open sourced the code... under the MIT license he could even sell it as long as he just included the license. Another person in the Discord chat did mistakenly say they had 1:1 copied my extension's source. However they had opened up my extension by mistake, and I corrected them when I looked at the source myself.
+[^2]: They said "I accused them of stealing code", which I never did. I very permissibly open sourced the code... under the MIT license he could even sell it as long as he just included the license. Another person in the Discord chat did mistakenly say they had 1:1 copied my extension's source. Ironically this would have been 100% ok since they would have included the license. However they had just opened up my extension's source code by mistake, and I corrected them when I looked at the source myself.

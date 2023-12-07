@@ -159,18 +159,20 @@ I'm not sure how this happened, but a big thank you to everyone who shared it in
         
 I assumed many people had or would come to similar ideas on their own when confronted with the obnoxiousness of YouTube ads (sans adblockers). [The top comment in my show HN thread even said they had made something similar themselves](https://news.ycombinator.com/item?id=38327017#38327385). I also wasn't expecting it to get the attention it did & I had zero intention to monetize which is why I chose open sourcing thinking maybe the community could support & expand it, if it was at all successful (more on this at the end).
 
-So I didn't think too much of it when Thursday afternoon a [Reddit post](https://old.reddit.com/r/webdev/comments/181vbmk/youtube_is_now_blocking_ad_blockers_so_i_just/) about a *functionally identical* extension hit the top of [HN](https://news.ycombinator.com/item?id=38397817#38398571). I responded to a [commenter who mentioned the similarity to my post](https://news.ycombinator.com/item?id=38397817#38397999) but didn't look closely and walked away to go have Thanksgiving dinner with my family.
+So I didn't think too much of it when on 11/23 a [Reddit post](https://old.reddit.com/r/webdev/comments/181vbmk/youtube_is_now_blocking_ad_blockers_so_i_just/) about a *functionally identical* extension hit the top of [HN](https://news.ycombinator.com/item?id=38397817#38398571). I responded to a [commenter who mentioned the similarity to my post](https://news.ycombinator.com/item?id=38397817#38397999) but didn't look closely and walked away to go have Thanksgiving dinner with my family.
 
-Yesterday I went back to look at it for this writeup when I realized they didn’t just come to it on their own. The same person had posted on HN complimenting my extension and *promoting their extension developer community* just days earlier.
+11/26 I went back to look at it for this writeup when I realized they didn’t just come to it on their own. The same person had posted on HN complimenting my extension and *promoting their extension developer community* just days earlier.
 
 ![show HN comment](assets/images/lessons_post/show_hn_comment_11_18_23.png)
+
 Posted on 11/18/23 [link](https://news.ycombinator.com/item?id=38327017&p=2#38328305)
 
 
 Even though the response to my extension far exceeded my expectations, this really bummed me out. I was totally at peace with another successful extension in the wild doing the same or similar thing - but it felt different knowing that they saw my idea/code/extension, took it for themselves with *zero acknowledgement* and got more traction. Especially when Re-reading their "creator posts". 
 
 ![Reddit creator post](assets/images/lessons_post/reddit_creator_post_11_23_23.png)
-Posted on 11/23/23 [link]()
+
+Posted on 11/23/23 [link](https://old.reddit.com/r/webdev/comments/181vbmk/youtube_is_now_blocking_ad_blockers_so_i_just/kaet4x9/)
 
 ![HN creator post](assets/images/lessons_post/hn_creator_post_11_23_23.png)
 Posted on 11/23/23 [link](https://news.ycombinator.com/item?id=38397817#38398571)

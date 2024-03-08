@@ -1,19 +1,26 @@
 {
   "manifest_version": 3,
   "name": "Ad Accelerator",
-  "version": "0.0.0.4",
+  "version": "0.0.0.5",
   "description": "Detects if a video ad is playing, mutes the video and dramatically increases speed.",
-  "permissions": ["webNavigation", "scripting"],
+  "permissions": [ "scripting"],
   "host_permissions": ["*://*.youtube.com/*","*://www.hulu.com/watch/*"],
   "background": {
-    "service_worker": "background.js"
   },
   "content_scripts": [
     {
-        "matches": ["*://*.youtube.com/*","*://www.hulu.com/watch/*"],
-        "js": ["content.js"],
-        "run_at": "document_end"
+        "matches": ["*://*.youtube.com/*"],
+        "js": ["content_youtube.js"],
+        "run_at": "document_end",
+        "all_frames":true
+    },
+        {
+        "matches": ["*://www.hulu.com/watch/*"],
+        "js": ["content_hulu.js"],
+        "run_at": "document_end",
+        "all_frames":true
     }
+
   ],
   "icons": {
     "16": "assets/images/icon16.png",

@@ -1,4 +1,14 @@
 (function () {
+    const skipButtonSelectors = [
+       // Original version
+       '.ytp-ad-skip-button',
+       '.ytp-ad-skip-button-modern',
+       '.ytp-skip-ad-button',
+       // Observed May 2024
+       '.ytp-skip-ad button',
+       '[id^="skip-ad"] button',
+       '[id^="skip-button"]',
+    ];
     // Checks for ads and manipulates the video or uses skip button if present
     function handleVideoAd() {
         const video = document.querySelector('video');
@@ -7,7 +17,7 @@
             muteAndSpeedUp(video, 16.0)
         }
         // Skip button seems to be acessible at initialization, if its ever present
-        const skipButton = document.querySelector('.ytp-ad-skip-button, .ytp-ad-skip-button-modern, .ytp-skip-ad-button');
+        const skipButton = document.querySelector(skipButtonSelectors.join(', '));
         if (skipButton) {
             skipButton.click();
             console.log('Used Button to Skip Ad');

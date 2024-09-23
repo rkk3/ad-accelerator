@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Ad Accelerator",
-  "version": "0.0.0.5",
+  "version": "0.0.0.6",
   "description": "Detects if a video ad is playing, mutes the video and dramatically increases speed.",
   "permissions": [ "scripting"],
   "host_permissions": ["*://*.youtube.com/*","*://www.hulu.com/watch/*"],
